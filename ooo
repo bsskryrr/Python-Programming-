@@ -1,0 +1,22 @@
+class ccalculator:
+    def sum(self, a,b):
+       res= a+b
+       print("sum ",res)
+    def sub(self, a,b):
+       res= a-b
+       print("sub ",res)
+    def mult(self, a,b):
+       res= a*b
+       print("mult ",res)
+    def div(self, a,b):
+       res= a/b
+       print("div ",res)
+
+obj = calculator()
+obj.sum(4,5)
+
+obj.sub(5,4)
+
+obj.mult(2,5)
+
+obj.div(6,4)
