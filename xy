@@ -1,0 +1,7 @@
+no=int(input(""))
+fruit= input("")
+l1=[]
+for i in range (no):
+   fruit= input("enter fruits")
+    l1.append(fruit)
+print("arw",l1)
